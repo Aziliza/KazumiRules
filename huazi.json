@@ -1,0 +1,28 @@
+{
+    "api": "6",
+    "type": "anime",
+    "name": "花子",
+    "version": "1.0",
+    "muliSources": true,
+    "useWebview": true,
+    "useNativePlayer": true,
+    "usePost": false,
+    "useLegacyParser": false,
+    "adBlocker": false,
+    "userAgent": "",
+    "baseURL": "https://www.huazidm.com/",
+    "searchURL": "https://www.huazidm.com/vodsearch/-------------.html?wd=@keyword",
+    "searchList": "//div[@class='vod-detail style-detail cor4 search-list']",
+    "searchName": "//div/div[2]/a/h3",
+    "searchResult": "//div/div[2]/div[5]/div[1]/a",
+    "chapterRoads": "//div[@class='anthology-list-box none ']",
+    "chapterResult": "//div/ul/li/a",
+    "referer": "",
+    "antiCrawlerConfig": {
+        "enabled": true,
+        "captchaType": 1,
+        "captchaImage": "//img[@class='ds-verify-img']",
+        "captchaInput": "//input[@class='input box br cor5 ds-verify r6']",
+        "captchaButton": "//button[@class='button verify-submit top20']"
+    }
+}
